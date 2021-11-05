@@ -1,0 +1,1 @@
+This is the README for the etch-a-sketch Odin Project assignment. Currently learning about managing Github on multiple systems - this project will be written entirely on my laptop where most of the projects that I have completed were on my workstation. 
