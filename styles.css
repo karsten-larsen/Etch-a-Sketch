@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    --clarity: 1;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 40vw;
+    height: 40vw;
+    background-color: white;
+    color: black;
+    margin: 0 auto;
+    padding: 50px 0 0 0;
+}
+
+.gridRow {
+    display: flex;
+    flex: 1;
+    min-width: 6.25%;
+    height: 6.25%;
+    align-items: center;
+    color: white;
+    background-color: white;
+    border: 1px solid darkgray;
+}
+
+.darken {
+    background-color: black;
+}
+
+
+.gridRow-32 {
+    display: inline-flex;
+    align-items: center;
+    min-width: 12.5%;
+    height: 12.5%;
+    color: white;
+    background-color: blue;
+    border: 1px solid black;
+}
+
+.gridRow-16 {
+    display: flex;
+    align-items: center;
+    min-width: 6.25%;
+    height: 6.25%;
+    color: white;
+    background-color: white;
+    border: 1px solid darkgray;
+}
+
+.selectButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dropdown-items {
+    display: inline-flex;
+    flex-direction: column;
+    margin: 0 auto;
+    
+}
+
+.dropdown-items a {
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+.selectButton:hover .dropdown-items {
+    display: inline-flex;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    padding: 10px;
+    background-color: lightgray;
+    margin: 10px;
+}
+
+.reset {
+    background-color: white;
+    transition: 1s;
+}
